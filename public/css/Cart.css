@@ -1,0 +1,42 @@
+/*-- cart --*/
+
+.snipcart-details input.button {
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    padding: 10px 17px;
+    background: #000;
+}
+
+.snipcart-details input.button:hover {
+    background: #ff0000;
+}
+button.minicart1-submit {
+    display: block !important;
+}
+
+#PPMiniCart .minicart1-submit {
+    display: none!important;
+    
+}
+
+#PPMiniCart .minicart1-closer:focus {
+    outline: none;
+}
+
+#PPMiniCart .minicart1-remove {
+    background: #000!important;
+    border: 1px solid #000!important;
+}
+
+#PPMiniCart {
+    z-index: 9999;
+}
+
+
+/*-- //cart --*/
+
+
+/*-- cart-button --*/
